@@ -1,0 +1,111 @@
+
+body {
+  margin: 0;
+  font-family: "Almarai", sans-serif;
+  font-family: "Young Serif", serif;
+  background-color: #edf0f175;
+}
+
+.navBar-color{
+  background-color: #394F49;
+}
+
+.res{
+  color: #FF2E00;
+  font-size: 30px;
+}
+.bt{
+  margin-right: 11px;
+  background-color:#edf0f1 ;
+  border: 0;
+  border-radius: 8px;
+  color: #7EA8BE;
+  padding: 7px;
+  transition: 1s;
+ font-size: 20px;
+}
+.bt:hover{
+  padding:0 15px 0 15px ;
+  background-color: #FF2E00;
+}
+
+.text-res{
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  color: #FF2E00;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.underLine{
+  height: 1px;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid #FF2E00;
+  justify-content: center;
+}
+
+.categ button{
+  margin: 23px;
+  border: 0;
+  border-radius: 9px;
+  color: #093d2fe8;
+  font-size: 22px;
+  font-weight: bold;
+  transition: 1s;
+  width: 70px;
+  height: 40px;
+}
+.categ button:hover{
+  background-color: #FF2E00;
+  color: black;
+}
+.Card{
+  /* background-image: linear-gradient(to top , #e6efe96c , #c2eaba6e); */
+  background-color: #edf0f175;
+  padding: 10px;
+  border: 2px solid #ff2f0057;
+  border-radius: 8px;
+  margin-top: 35px;
+  display: flex;
+  font-size: 20px;
+   
+}
+.contanierForText{
+  width: 100%;
+}
+.Card .photo img{
+  width: 250px;
+  height: 150px;
+  border-radius: 5px;
+  max-width: 100%; /* تحسين حجم الصورة للأجهزة المختلفة */
+}
+.txt-card{
+   display: flex;
+   justify-content: space-between;
+   color: #326771;
+   padding: 0 9px 0 9px;
+
+}
+
+.txt-description{
+  margin-right: 13px;
+  color: #FF2E00;
+}
+
+
+/* تغيير تنسيق العنصر عندما يكون عرض الشاشة أقل من 768 بكسل (أجهزة صغيرة) */
+@media (max-width: 768px) {
+  .Card {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+}
+
+/* تغيير تنسيق العنصر عندما يكون عرض الشاشة أقل من 576 بكسل (أجهزة صغيرة) */
+@media (max-width: 576px) {
+  .Card {
+    margin-top: 10px;
+    font-size: 20px;
+  }}
